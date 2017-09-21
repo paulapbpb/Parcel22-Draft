@@ -1,0 +1,235 @@
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+* p, h1, h2, h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* My Navigation Bar */
+
+#menu {
+    font-size: 20px;
+    background-color: white;
+    padding-bottom: 10px;
+    border-bottom: black solid 3px;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu ul, #menu li {
+    margin: 0; 
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+#menu #homebutton {
+    padding-left: 10px;
+    font-size: 30px
+    list-style-image: url("https://image.flaticon.com/icons/svg/60/60993.svg")
+}
+
+#menu .leftlinks {
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+#menu .rightlinks {
+    color: black;
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: pink;
+}
+
+/* Banner */
+
+#banner p {
+    margin: 0px 0px 0px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: pink;
+    color: white;
+}
+
+#banner {
+    background-color: pink;
+}
+
+/* Banner Buttons */
+
+#bannertbl {
+    margin: auto;
+}
+
+#bannertbl tr {
+    height: 50px;
+}
+
+.bannerclm {
+    width: 26.3em;
+}
+
+#bannerhead {
+    font-size: 30px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#unlimited {
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+/* Banner Right */
+
+#bannerright li {
+    display: inline;
+}
+
+
+#bannerright a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: solid black 2px;
+}
+
+#bannerright ul, #bannerright li {
+    margin: auto; 
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#bannerright a:hover {
+    text-decoration: none;
+    color: pink;
+}
+
+.mySlides {
+    width: 100%;
+}
+
+.jumbotron {
+    background: url("https://cdn.pbrd.co/images/yVOFJ6Fes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+/* #about-us h2 {
+    padding-top: 25px;
+    text-align: center;
+} */
+
+#how-it-works {
+    text-align: center;
+    font-size: 45;
+}
+
+/* buttons */
+
+.centered {
+    text-align: center;
+}
+
+button-default {
+    color:pink;
+}
+
+#pink-bar {
+    background: pink;
+    color: white;
+    margin: 0;
+}
+
+/* About Us */
+
+#about-us p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    padding-bottom: 50px;
+}
+
+#about-us {
+    background-color: pink;
+}
+
+#about-us h2 {
+    padding-top: 40px;
+}
+
+/* step info table */
+
+#stepinfo #steptable {
+    margin: auto;
+}
+
+#steptable .steps {
+   text-align: center;
+   width: 33em;
+   padding-left: 4em;
+   padding-right: 4em;
+   vertical-align: top;
+}
+
+.steps h1 {
+    font-size: 150px;
+    font-weight: 100;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+
+.steps p {
+    font-size: 22px;
+}
+
+/* Sign Up Button */
+
+#sign-up {
+    background: #c6b4c5;
+    height: 200px;
+    margin: auto;
+}
+
+#sign-up h3{
+    padding-top: 50px;
+    color: black;
+    text-transform: uppercase;
+    text-emphasis-style: bold;
+}
+
+#sign-up-button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 25;
+    margin-top: 10px;
+    background: white;
+    border-color: black;
+    color: black;
+}
